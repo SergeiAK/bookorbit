@@ -14,7 +14,9 @@
     "previous": "Precedente",
     "retry": "Riprova",
     "yes": "Sì",
-    "no": "No"
+    "no": "No",
+    "show": "Mostra",
+    "hide": "Nascondi"
   },
   "settings": {
     "privacySharing": {
@@ -1275,6 +1277,8 @@
           "title": "Come funziona.",
           "summary": "Ogni libro ottiene un punteggio su 100 in base a quanto sono completi i suoi metadati. Un peso è significativo solo accanto agli altri, quindi ogni campo sottostante mostra la parte di un punteggio finito di cui è responsabile. Raddoppiare ogni peso non cambia niente."
         },
+        "clearSearch": "Cancella la ricerca",
+        "noMatches": "Nessun libro corrisponde a questa ricerca.",
         "save": {
           "upToDate": "Tutte le modifiche salvate."
         }
@@ -3445,7 +3449,7 @@
       "audiobook": "Audiolibro"
     },
     "actions": {
-      "read": "Segna come letto",
+      "read": "Leggi",
       "listen": "Ascolta",
       "peek": "Sbircia",
       "quickView": "Visualizzazione rapida",
@@ -3784,7 +3788,7 @@
         "ratingLocked": "La valutazione è bloccata",
         "rateStar": "Valuta {star}",
         "listen": "Ascolta",
-        "read": "Letto",
+        "read": "Leggi",
         "chooseFormat": "Scegli il formato",
         "audiobook": "Audiolibro",
         "primary": "Principale",
@@ -4024,7 +4028,7 @@
         "fieldsWritten": "{count, plural, =0 {nessun campo} one {un campo} other {# campi} many {# campi}}",
         "track": "Traccia {number}",
         "primary": "Principale",
-        "read": "Letto",
+        "read": "Leggi",
         "play": "Ascolta",
         "peek": "Sbircia",
         "download": "Scarica",
@@ -6312,6 +6316,15 @@
         "ascending": "Ascendente",
         "descending": "Discendente"
       }
+    },
+    "legend": {
+      "read": "Letto"
+    },
+    "status": {
+      "read": "Letta"
+    },
+    "index": {
+      "columnRead": "Letto"
     }
   },
   "smartScope": {
@@ -6958,7 +6971,7 @@
     "resetPassword": "Reimposta password",
     "completingSignIn": "Completamento dell'accesso",
     "magicLinkLogin": "Accesso al collegamento magico",
-    "readPrefix": "Leggi",
+    "readPrefix": "Letto",
     "emailSuffix": "E-mail",
     "library": "Biblioteca",
     "smartScope": "SmartScope",

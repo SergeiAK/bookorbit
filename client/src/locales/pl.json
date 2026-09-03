@@ -1070,7 +1070,24 @@
         "libraryDeleted": "„{name}” usunięty",
         "deleteFailed": "Nie udało się usunąć biblioteki",
         "refreshingCovers": "Odświeżające okładki {pct}% ({processed}/{total})",
-        "coversRefreshed": "Okładki odświeżone ({count} przetworzone)"
+        "coversRefreshed": "Okładki odświeżone ({count} przetworzone)",
+        "scanNoChange": "bez zmian",
+        "outcomeSeparator": ", ",
+        "columns": {
+          "library": "Biblioteka",
+          "onDisk": "Na dysku",
+          "automation": "Automatyzacja",
+          "lastScan": "Ostatni skan"
+        },
+        "sort": {
+          "default": "Domyślna kolejność",
+          "books": "Książki",
+          "size": "Rozmiar na dysku",
+          "lastScan": "Ostatni skan"
+        },
+        "capability": {
+          "fileWrite": "Zapisz do pliku"
+        }
       },
       "authorEnrichment": {
         "configuration": "Konfiguracja",
@@ -1113,7 +1130,27 @@
         "saveFailed": "Nie udało się zapisać wag wyników",
         "recalcStarted": "Przeliczanie punktów rozpoczęło się w tle",
         "recalcFailed": "Ponowne obliczenie nie powiodło się",
-        "resetToDefaults": "Wagi zresetowane do ustawień domyślnych. Zapisz, aby złożyć wniosek."
+        "resetToDefaults": "Wagi zresetowane do ustawień domyślnych. Zapisz, aby złożyć wniosek.",
+        "groups": {
+          "classification": "Klasyfikacja",
+          "providers": "Identyfikatory dostawców"
+        },
+        "rules": {
+          "text": "Liczy się, gdy nie jest puste"
+        },
+        "rail": {
+          "title": "Gdzie lądują Twoje książki",
+          "bands": {
+            "poor": "PONIŻEJ 50",
+            "fair": "50-69",
+            "good": "70-89",
+            "great": "90+"
+          },
+          "median": "Mediana",
+          "belowFifty": "Poniżej 50",
+          "ninetyPlus": "90 i więcej",
+          "noBooks": "Nie masz ocenionych książek. Uruchom ponownie po zakończeniu importowania biblioteki."
+        }
       },
       "tabs": {
         "users": "Użytkownicy",
