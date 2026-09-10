@@ -734,6 +734,7 @@
         "connected": "Connected - {issuer}",
         "connectionFailed": "Connection failed",
         "privateIssuerAddress": "The issuer URL resolves to a private or local network address, so the server refused to connect. Set OIDC_ALLOW_LOCAL_ISSUERS=true on the BookOrbit server to allow it.",
+        "tlsCertificateUntrusted": "BookOrbit could not verify the OIDC provider's TLS certificate. If the provider uses a private certificate authority, mount its PEM CA bundle, set NODE_EXTRA_CA_CERTS to the bundle's in-container path, and restart BookOrbit.",
         "hide": "Hide",
         "details": "Details",
         "supported": "supported",
