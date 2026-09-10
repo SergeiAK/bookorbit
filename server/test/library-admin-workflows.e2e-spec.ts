@@ -308,6 +308,25 @@ describe('Library admin workflows (e2e)', { timeout: SCENARIO_TIMEOUT_MS }, () =
         },
       ]);
 
+      const editPrescanResponse = await ctx.app.inject({
+        method: 'POST',
+        url: '/api/v1/libraries/prescan',
+        headers: authHeader(manager.accessToken),
+        payload: { paths: [overlapLibrary.folderPath], libraryId: overlapLibrary.libraryId },
+      });
+
+      expect(editPrescanResponse.statusCode).toBe(201);
+      expect(editPrescanResponse.json()).toEqual({
+        totalFiles: 0,
+        paths: [
+          {
+            path: overlapLibrary.folderPath,
+            accessible: true,
+            fileCount: 0,
+          },
+        ],
+      });
+
       const forbiddenPrescanResponse = await ctx.app.inject({
         method: 'POST',
         url: '/api/v1/libraries/prescan',

@@ -61,9 +61,13 @@ describe('Library DTO validation', () => {
     expect(await hasErrors(plainToInstance(UpdateLibraryAccessDto, { accessLevel: 'owner' }))).toBe(false);
   });
 
-  it('PrescanLibraryDto requires at least one non-empty path', async () => {
+  it('PrescanLibraryDto requires at least one non-empty path and validates an optional library ID', async () => {
     expect(await hasErrors(plainToInstance(PrescanLibraryDto, { paths: [''] }))).toBe(true);
     expect(await hasErrors(plainToInstance(PrescanLibraryDto, { paths: ['/books'] }))).toBe(false);
+    expect(await hasErrors(plainToInstance(PrescanLibraryDto, { paths: ['/books'], libraryId: 12 }))).toBe(false);
+    expect(await hasErrors(plainToInstance(PrescanLibraryDto, { paths: ['/books'], libraryId: 0 }))).toBe(true);
+    expect(await hasErrors(plainToInstance(PrescanLibraryDto, { paths: ['/books'], libraryId: 1.5 }))).toBe(true);
+    expect(await hasErrors(plainToInstance(PrescanLibraryDto, { paths: ['/books'], libraryId: '12' }))).toBe(true);
   });
 
   it('ReorderLibrariesDto validates nested order items', async () => {

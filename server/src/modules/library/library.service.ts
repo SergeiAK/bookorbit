@@ -292,6 +292,7 @@ export class LibraryService {
         }
 
         for (const existing of allFolderPaths) {
+          if (dto.libraryId !== undefined && existing.libraryId === dto.libraryId) continue;
           if (pathsOverlap(resolvedInputPath, existing.path)) {
             overlapLibrary = existing.libraryName;
             break;

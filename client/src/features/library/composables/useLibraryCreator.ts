@@ -141,10 +141,14 @@ export function useLibraryCreator() {
     prescanResult.value = null
     error.value = null
     try {
+      const payload = {
+        paths: form.folders,
+        ...(editingLibraryId.value === null ? {} : { libraryId: editingLibraryId.value }),
+      }
       const res = await api('/api/v1/libraries/prescan', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ paths: form.folders }),
+        body: JSON.stringify(payload),
       })
       if (res.ok) {
         prescanResult.value = await res.json()
