@@ -4,6 +4,8 @@
 
 A self-hosted library and reading platform for ebooks, PDFs, audiobooks, and comics.
 
+Copyright (C) 2025-2026 neon and BookOrbit contributors.
+
 [![Latest release](https://img.shields.io/github/v/release/bookorbit/bookorbit?label=latest&style=flat-square)](https://github.com/bookorbit/bookorbit/releases)
 [![Stars](https://img.shields.io/github/stars/bookorbit/bookorbit?style=flat-square&color=FFC72C)](https://github.com/bookorbit/bookorbit/stargazers)
 [![CI](https://img.shields.io/github/actions/workflow/status/bookorbit/bookorbit/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/bookorbit/bookorbit/actions/workflows/ci.yml)
@@ -146,6 +148,8 @@ When adding user-facing text in code, add the Vue I18n key only to `client/src/l
 - **Feature requests:** [GitHub Issues](https://github.com/bookorbit/bookorbit/issues/new?template=feature_request.yml)
 - **Security vulnerabilities:** Follow the private reporting process in the [Security Policy](.github/SECURITY.md).
 
-## License
+## License and Attribution
 
 BookOrbit is licensed under the **[GNU Affero General Public License v3.0](LICENSE)**.
+
+Forks and modified distributions must preserve BookOrbit's reasonable author attribution as described in the **[BookOrbit Attribution Notice](NOTICE)**, in accordance with section 7(b) of the GNU AGPL v3.
