@@ -150,6 +150,6 @@ When adding user-facing text in code, add the Vue I18n key only to `client/src/l
 
 ## License and Attribution
 
-BookOrbit is licensed under the **[GNU Affero General Public License v3.0](LICENSE)**.
+BookOrbit is licensed under the **[GNU Affero General Public License v3.0 only](LICENSE)**.
 
-Forks and modified distributions must preserve BookOrbit's reasonable author attribution as described in the **[BookOrbit Attribution Notice](NOTICE)**, in accordance with section 7(b) of the GNU AGPL v3.
+BookOrbit material whose copyright holders have authorized them is also subject to the **[BookOrbit Additional Terms](ADDITIONAL_TERMS.md)** under sections 7(b), 7(c), 7(d), and 7(e) of the GNU AGPL v3. See the **[Attribution and Legal Notice](NOTICE)** for the required attribution.

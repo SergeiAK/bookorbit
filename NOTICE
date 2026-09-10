@@ -1,21 +1,25 @@
-BookOrbit Attribution Notice
+BookOrbit Attribution and Legal Notice
 
-Copyright (C) 2025-2026 neon and BookOrbit contributors.
+Copyright (C) 2025-2026 neon.
+Additional copyright is held by the respective BookOrbit contributors.
 
 BookOrbit is free software licensed under the GNU Affero General Public
-License, version 3. See LICENSE for the complete license terms.
+License, version 3 only. See LICENSE for the complete license text.
 
-Additional attribution term under GNU AGPL v3 section 7(b):
+BookOrbit material owned by neon and contributions whose copyright holders
+expressly accept the terms are also subject to the non-permissive additional
+terms in ADDITIONAL_TERMS.md, as authorized by sections 7(b), 7(c), 7(d), and
+7(e) of the GNU AGPL v3.
 
-When a covered work containing BookOrbit material is conveyed, its source
-distribution must preserve the following reasonable author attribution in a
-top-level NOTICE, COPYRIGHT, README, or comparable legal notices file:
+Other contributions remain subject to the license terms under which they were
+originally submitted.
 
-    BookOrbit
-    Copyright (C) 2025-2026 neon and BookOrbit contributors.
+The required attribution is:
+
+    Powered by BookOrbit
+    Copyright (C) 2025-2026 neon.
+    Additional copyright is held by the respective BookOrbit contributors.
     Original project: https://github.com/bookorbit/bookorbit
 
-This attribution does not grant permission to use the BookOrbit name or logo
-to imply endorsement of a modified version. Modified versions that are
-conveyed must identify themselves as modified, give relevant modification
-dates, and otherwise comply with the GNU AGPL v3.
+See ADDITIONAL_TERMS.md for the conditions governing display, source access,
+modified versions, preservation, and trademarks.

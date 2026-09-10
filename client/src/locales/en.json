@@ -7266,6 +7266,20 @@
       "librariesEmptyHint": "Create a library to start adding books.",
       "smartScopesEmptyHint": "Smart scopes save a set of filters you use often.",
       "collectionsEmptyHint": "Collections group books you pick by hand."
+    },
+    "legalNotices": {
+      "about": "About BookOrbit",
+      "trigger": "Legal notices",
+      "title": "About BookOrbit",
+      "description": "BookOrbit attribution, licensing, and source code.",
+      "poweredBy": "Powered by BookOrbit",
+      "originalDevelopment": "This software contains material originally developed as BookOrbit.",
+      "copyright": "Copyright (C) 2025-2026 neon.",
+      "contributors": "Additional copyright is held by the respective BookOrbit contributors.",
+      "licenseSummary": "Licensed under the GNU Affero General Public License, version 3 only, with additional terms. This software is provided without warranty. You may redistribute and modify it under those terms.",
+      "sourceCode": "Source code",
+      "license": "AGPLv3 license",
+      "additionalTerms": "Additional terms"
     }
   },
   "customIcons": {
