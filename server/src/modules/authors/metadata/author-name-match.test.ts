@@ -89,4 +89,10 @@ describe('author-name-match', () => {
     expect(match.tokenSetEqual).toBe(false);
     expect(match.accept).toBe(false);
   });
+
+  it('keeps script-specific combining marks, so names that differ only by one stay distinct', () => {
+    const match = scoreAuthorNameMatch('कमल', candidate('कमला'));
+    expect(match.exactNormalized).toBe(false);
+    expect(match.accept).toBe(false);
+  });
 });
